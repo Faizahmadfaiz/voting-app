@@ -1,0 +1,44 @@
+{
+    "polls":[
+        {
+            "_id": "po001",
+            "name": "Favourite food",
+            "options": [
+                {
+                    "_id": "foo1",
+                    "name": "Biryani"
+                },
+                {
+                    "_id": "foo2",
+                    "name": "Pizza"
+                }
+            ],
+            "author": {
+                "id": "aut01",
+                "username": "rusty"
+            }
+        },
+        {
+            "_id": "po002",
+            "name": "Favourite Color",
+            "options": [
+                {
+                    "_id": "col1",
+                    "name": "Red"
+                },
+                {
+                    "_id": "col2",
+                    "name": "Blue"
+                }
+            ],
+            "author": {
+                "id": "aut02",
+                "username": "musty"
+            }
+        }
+    ],
+    "user": {
+        "_id": "aut01",
+        "username": "rusty"
+    }
+}

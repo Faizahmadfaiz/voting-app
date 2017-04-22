@@ -1,0 +1,32 @@
+{
+    "polls":[{
+        "_id": {
+            "$oid": "58a9f672a3f6076fbeb8f7a0"
+        },
+        "name": "Favourite food",
+        "options": [
+            {
+                "_id": {
+                    "$oid": "xyz"
+                },
+                "name": "Biryani",
+                "voters": []
+            }
+        ],
+        "voters_id": [],
+        "author": {
+            "id": {
+                "$oid": "58a9f61da3f6076fbeb8f79f"
+            },
+            "username": "rusty"
+        }
+    }],
+    "users":[
+    {
+        "_id": {
+            "$oid": "58a9f61da3f6076fbeb8f79f"
+        },
+       "username": "rusty"
+    }]
+}
+
